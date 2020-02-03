@@ -9,19 +9,20 @@
 # 4. Write a method, `.bark`, that `puts` "woof!" when called on an instance of Dog.
 
 class Dog
-  def name=(dog_has_a_name)
-    this_dogs_name = dog_has_a_name
+  def name=(dog_a_name)
+    @this_dogs_name = dog_a_name
   end
 
   def name
-    this_dogs_name
+    @this_dogs_name
   end
 
   def bark
     puts "woof!"
   end
-
 end
 
-@fido = Dog.new
-@fido.name = "Fido"
+fido = Dog.new
+fido.name = "Fido"
+
+puts fido.name
