@@ -6,3 +6,6 @@
 # 3. Write a getter method, `.name` that returns an individual dog's name.
 
 # 4. Write a method, `.bark`, that `puts` "woof!" when called on an instance of Dog.
+
+class Dog
+end
