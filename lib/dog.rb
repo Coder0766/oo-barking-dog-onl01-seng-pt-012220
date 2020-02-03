@@ -10,7 +10,7 @@
 
 class Dog
 
-  def name=(Dog)
+  def name=(dogs_name)
   end
 
   def name
