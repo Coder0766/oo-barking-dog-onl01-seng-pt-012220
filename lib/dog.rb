@@ -10,7 +10,7 @@
 
 class Dog
 
-  def name=(dog_name)
+  def name=()
   end
 
   def name
@@ -23,5 +23,3 @@ end
 
 fido = Dog.new
 fido.name = "Fido"
-
-fido.bark
