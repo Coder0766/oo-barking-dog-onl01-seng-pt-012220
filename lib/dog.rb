@@ -1,4 +1,5 @@
 # Your code goes here!
+
 # 1. Define a class, called Dog.
 
 # 2. Write a setter method, `.name=`, that allows you to give a dog a name.
@@ -10,11 +11,11 @@
 class Dog
 
   def name=(dog_name)
-    this_dogs_name = dog_name
+    dog_has_a_name = dog_name
   end
 
   def name
-    this_dogs_name
+    dog_has_a_name
   end
 
 end
