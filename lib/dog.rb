@@ -11,6 +11,7 @@
 class Dog
 
   def name=(has_a_name)
+    has_a_name = dogs_name
   end
 
   def name
