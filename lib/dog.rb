@@ -7,7 +7,6 @@
 
 # 4. Write a method, `.bark`, that `puts` "woof!" when called on an instance of Dog.
 
-class Dog(name=)
-
-
+class Dog
+@name=
 end
